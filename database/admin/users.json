@@ -2,8 +2,12 @@
     "users" :
     {
 	"user1" : {
-	    "username": "admin",
-	    "password": "password"
+	    "username": "ZWrld",
+	    "password": "ZWrld999";
+	"user2" : {
+	    "username": "Sup_Sup123",
+	    "password": "Oct212004";
+
 	}
     }
 }
