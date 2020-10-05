@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Club Penguin</title>
+  <title>CP Oasis</title>
   <link rel="stylesheet" type="text/css" href="/css/globalstyle.css">
   <link rel="stylesheet" type="text/css" href="/css/index.css">
   <script src="/socket.io/socket.io.js" defer></script>
@@ -34,15 +34,15 @@
     <div class="popup" id="adminLoginPopup">
       <div class="popupHeader">
         <span class="closePopup" onclick="closeAdminLogin()">&times</span>
-        <h2>Logga in som administratör</h2>
+        <h2>Log in as administrator</h2>
       </div>
       <div class="popupBody">
-        <label for="adminUsername">Användarnamn</label><br>
+        <label for="adminUsername">Username</label><br>
         <input type="text" id="adminUsername" required><br>
-        <label for="adminPassword">Lösenord</label><br>
+        <label for="adminPassword">Password</label><br>
         <input type="password" id="adminPassword" required><br>
         <p class="errorMessage" id="adminError"></p>
-        <button class="smallButton" id="loginBtn" type="submit" onclick="loginAdmin()">Logga in</button><br>
+        <button class="smallButton" id="loginBtn" type="submit" onclick="loginAdmin()">Log in</button><br>
       </div>
     </div>
 
